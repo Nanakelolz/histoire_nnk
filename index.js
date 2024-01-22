@@ -18,8 +18,8 @@ const client = new Client({
 });
 const commands = [
   {
-    name: 'histoire',
-    description: 'Obtenir une histoire aléatoire',
+    name: 'histoirennk',
+    description: 'Génère une histoire aléatoire BREF on va la faire courte',
   },
 ];
 try {
