@@ -1,0 +1,17 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "Un bot discord pour tester Node et JS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Nanake & Alidria & Sarlam",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "node-fetch": "^3.3.2"
+  }
+}
