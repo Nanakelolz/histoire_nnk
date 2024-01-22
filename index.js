@@ -35,7 +35,7 @@ try {
 client.on('interactionCreate', async (interaction) => {
   if (!interaction.isCommand()) return;
 
-  if (interaction.commandName === 'histoire') {
+  if (interaction.commandName === 'histoirennk') {
     try {
       // Charger le contenu du fichier JSON en utilisant require
       const data = histoires;
