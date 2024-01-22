@@ -1,6 +1,5 @@
 import { REST, Routes, Client, GatewayIntentBits } from 'discord.js';
 import keys from './varprod.json' assert {type: 'json'};
-console.log(keys,keys["APIKEY"])
 const rest = new REST({ version: '10' }).setToken(keys["APIKEY"]);
 import fetch from 'node-fetch'; // Importez le module fetch
 import histoires  from './histoirennk.json' assert {type: 'json'};
